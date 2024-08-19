@@ -6,10 +6,14 @@
     overflow: hidden;
 
     background-color: #972169;
+    width: 100%;
+    background-color: #972169;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .always-111:hover .always-content {
-    transform: translateX(-10%);
+    transform: translateX(-100%);
 }
 
 
@@ -33,13 +37,16 @@
     position: relative;
 
     overflow: hidden;
-width: 100%;
+    width: 100%;
     background-color: #972169;
-    display: inline-block;vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .always-content {
-    background-color: peru;
+    /* background-color: peru; */
+    background-color: #972169;
+
     position: absolute;
     top: 0;
     left: 0;
