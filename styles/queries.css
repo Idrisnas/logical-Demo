@@ -1,0 +1,105 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .none {
+        display: none;
+    }
+
+    nav {
+        background-color: black;
+        position: relative;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* z-index: 400;
+        width: 100%; */
+
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 30%;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .about {
+        background-color: #009ddc;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: .6px solid black;
+
+
+    }
+
+    h1 {
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .coorp {
+        background-color: #dc0b00;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: .6px solid black;
+    }
+
+    .store {
+        background-color: #00dc00;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: .6px solid black;
+    }
+
+    .contact {
+        background-color: #d5dc00;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: .6px solid black;
+    }
+
+    .mobile-foot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+
+    .footer-1 {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+.socials{
+    display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+}
+    .socials img {
+        width: 20px;
+        height: 20px;
+        background-color: #989898;
+
+    }
+}
